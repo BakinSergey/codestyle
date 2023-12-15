@@ -780,7 +780,7 @@ def validateSSN(ssn: Str):
 отправлять сообщения в лог нужно в том месте, которое обладает всем значимым контекстом.
 Правильно:
 ```python
-def validateUserUpdateRequest(UserUpdateRequestreq): {
+def validateUserUpdateRequest(UserUpdateRequest req): {
     ... проверка другого атрибута req 
  
     try:
